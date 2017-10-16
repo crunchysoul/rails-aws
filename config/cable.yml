@@ -1,10 +1,11 @@
 development:
   adapter: async
-
+  
 test:
   adapter: async
-
+ 
 production:
   adapter: redis
-  url: redis://localhost:6379/1
+  url: redis://redis-test.phqv4v.0001.apse2.cache.amazonaws.com:6379
   channel_prefix: rails-aws_production
+
